@@ -1,0 +1,11 @@
+How to test the beta package:
+- Save this sub-package to your HD.
+- Completelly delete the current Azure[Sky] package from your project.
+- Import to your project only the beta sub-package.
+
+Notes:
+- This beta is not backward compatible with the current v7.x.x version cycle.
+- Currently, there is no documentation or instruction on how to use the beta version.
+- Always save a backup of your project before import or update a third-party package.
+- The new v8.x.x version cycle is still a working in progress.
+- Expect the new v8.x.x version cycle to work with Unity 2020.3 LTS or higher.
