@@ -947,9 +947,11 @@ namespace OmniVehicleAi
 
             if(vehicleTransform != null)
             {
+                // 1. 绘制转弯半径的圆形
+                // 右侧和左侧的转弯圆心
                 Vector3 rightCircleCenter = vehicleTransform.position + vehicleTransform.right * TurnRadius - vehicleTransform.forward * TurnRadiusOffset;
                 Vector3 leftCircleCenter = vehicleTransform.position - vehicleTransform.right * TurnRadius - vehicleTransform.forward * TurnRadiusOffset;
-
+                // 绘制圆形, 连接车辆位置与圆心，并在圆心处绘制一个小球。
                 UnityEditor.Handles.DrawWireDisc(rightCircleCenter, vehicleTransform.up, TurnRadius);
                 Gizmos.DrawLine(vehicleTransform.position - vehicleTransform.forward * TurnRadiusOffset, rightCircleCenter);
                 Gizmos.DrawSphere(rightCircleCenter, 0.2f);
@@ -958,19 +960,24 @@ namespace OmniVehicleAi
                 Gizmos.DrawLine(vehicleTransform.position - vehicleTransform.forward * TurnRadiusOffset, leftCircleCenter);
                 Gizmos.DrawSphere(leftCircleCenter, 0.2f);
             }
-
+            
+            // 2. 目标跟随模式的可视
             if (AiMode == Ai_Mode.TargetFollow)
             {
+                // 绘制目标位置的停止距离（红色圆）
                 Gizmos.color = Color.red;
                 if (target != null) { Gizmos.DrawWireSphere(target.position, stoppingDistance); }
                 //Gizmos.color = Color.yellow;
                 //Gizmos.DrawWireSphere(target.position, slowDownDistance);
                 //Gizmos.color = Color.white;
                 //Gizmos.DrawWireSphere(target.position, brakingDistance);
+                
+                // 绘制目标位置的倒车距离（半透明蓝色球体）
                 Gizmos.color = new Color(0, 0, 1, 0.3f);
                 if (target != null) { Gizmos.DrawSphere(target.position, reverseDistance); }
             }
-
+            
+            // 3. 传感器的可视化
             if(frontSensors != null)
             {
                 Gizmos.color = Color.green;
@@ -982,7 +989,6 @@ namespace OmniVehicleAi
                     }
                 }
             }
-            
             if(sideSensors != null)
             {
                 foreach (Sensor sensor_ in sideSensors)
@@ -994,6 +1000,7 @@ namespace OmniVehicleAi
                 }
             }
             
+            // 4. 路径跟随模式的可视化
             if (AiMode == Ai_Mode.PathFollow)
             {
                 Gizmos.color = Color.magenta;
