@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 
@@ -7,11 +6,15 @@ public class DrawWheel : MonoBehaviour
 {
     private WheelCollider wheelCollider;
     
-    private void Start()
+    private void Awake()
     {
         wheelCollider = GetComponent<WheelCollider>();
     }
-    
+
+    private void Update()
+    {
+    }
+
     //根据wheelCollider绘制车轮型Gizoms
     private void OnDrawGizmos()
     {

@@ -4,6 +4,7 @@ using UnityEngine.Splines;
 
 namespace OmniVehicleAi
 {
+    //https://soft-pilot-e91.notion.site/AIVehicleController-11d54a67048d8007a824c16982ae87e4
     public class AIVehicleController : MonoBehaviour
     {
         #region Variables
@@ -352,18 +353,21 @@ namespace OmniVehicleAi
 
             float targetDistance = Vector3.Distance(vehicleTransform.position, target.position);
             Vector3 targetDirection = (target.position - vehicleTransform.position).normalized;
-            Vector3 relative_direction = vehicleTransform.InverseTransformDirection(targetDirection);
-
+            Vector3 relative_direction = vehicleTransform.InverseTransformDirection(targetDirection); //将目标方向转换为车辆的局部坐标系方向
+            
+            //根据目标相对于车辆的位置，判断目标是否在以下区域：
+            // IR/IL: 目标在车辆右/左转弯半径内。
+            // FR/FL: 目标在车辆前方右/左侧。
+            // RR/RL: 目标在车辆后方右/左侧。
             IR = Vector3.ProjectOnPlane((target.position - (vehicleTransform.position + vehicleTransform.right * TurnRadius)), Vector3.up).magnitude < TurnRadius;
             IL = Vector3.ProjectOnPlane((target.position - (vehicleTransform.position - vehicleTransform.right * TurnRadius)), Vector3.up).magnitude < TurnRadius;
             FR = relative_direction.z > 0 && relative_direction.x > 0 && !IR && !IL;
             FL = relative_direction.z > 0 && relative_direction.x < 0 && !IR && !IL;
             RR = relative_direction.z < 0 && relative_direction.x > 0 && !IR && !IL;
             RL = relative_direction.z < 0 && relative_direction.x < 0 && !IR && !IL;
-
+           
             float steerAmount = Mathf.Abs(Vector3.Cross(targetDirection, vehicleTransform.forward).y);
-
-
+            
             if (targetDistance > stoppingDistance)
             {
                 useReverseIfStuck = true;

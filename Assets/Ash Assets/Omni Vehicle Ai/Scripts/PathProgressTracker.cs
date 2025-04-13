@@ -35,7 +35,7 @@ namespace OmniVehicleAi
 
         private Spline spline;
         private float splineLength;
-
+        
         public UnityEvent OnLapCompleted; // Event for lap completion
         public UnityEvent OnAllLapsCompleted; // Event for all laps completion
 
@@ -62,10 +62,11 @@ namespace OmniVehicleAi
             }
 
             splineLength = spline.GetLength();
-
+        
             ResetProgress();
         }
 
+        
         public void ResetProgress()
         {
             progressDistance = 0f;
