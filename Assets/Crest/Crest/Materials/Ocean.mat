@@ -17,6 +17,7 @@ Material:
   - _FLOW_ON
   - _FOAM3DLIGHTING_ON
   - _FOAM_ON
+  - _SHADOWS_ON
   - _SUBSURFACESCATTERING_ON
   - _TRANSPARENCY_ON
   - _VARYSMOOTHNESSOVERDISTANCE_ON
@@ -132,7 +133,7 @@ Material:
     - _LightIntensityMultiplier: 2
     - _MipBias: 0
     - _Moving: 0.17
-    - _NormalsScale: 40
+    - _NormalsScale: 96
     - _NormalsStrength: 0.08
     - _NormalsStrengthOverall: 1
     - _Offset: 0.00008
@@ -150,7 +151,7 @@ Material:
     - _RefractiveIndexOfWater: 1.333
     - _Roughness: 0
     - _S: 1
-    - _Shadows: 0
+    - _Shadows: 1
     - _ShorelineFoamMinDepth: 0.27
     - _SkyDirectionality: 0.875
     - _Smoothness: 0.8

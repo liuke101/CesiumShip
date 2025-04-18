@@ -5,8 +5,7 @@
         "Crest",
         "Unity.RenderPipelines.Core.Runtime",
         "Unity.InputSystem",
-        "Unity.RenderPipelines.Universal.Runtime",
-        "Unity.RenderPipelines.HighDefinition.Runtime"
+        "Unity.RenderPipelines.Universal.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
