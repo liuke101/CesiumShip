@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d6cafb4bf5b8549860aa0786cfe5a3, type: 3}
+  m_Name: MiniMapData
+  m_EditorClassIdentifier: 
+  renderPipeline: 1
+  IconPrefab: {fileID: 197840, guid: 2b4fb31f6472842468de0a7249d7b8da, type: 3}
+  inputHandler: {fileID: 11400000, guid: ab4d91110544e404db3184c92d801470, type: 2}
+  emptyIconData: {fileID: 11400000, guid: 0b4775a46f432964c89bcc64bfdb5f2c, type: 2}
+  ScreenShotPrefab: {fileID: 145106, guid: 023e79054cc56024b8464f62be94c440, type: 3}
+  pathNavPrefab: {fileID: 6707945118003933009, guid: f66abc6e13652394ea4ba4bbf48193d1,
+    type: 3}
+  mapPlanes:
+  - {fileID: 7851824368193926467, guid: d124406be6938d34d88429c6f77b9203, type: 3}
+  - {fileID: 7851824368193926467, guid: d7dd9c8a15e8f25449b16d0b4cc818b4, type: 3}
+  - {fileID: 7851824368193926467, guid: 3ff80cff7a4c5ef45987d7ddac22c41a, type: 3}
