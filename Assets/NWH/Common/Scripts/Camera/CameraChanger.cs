@@ -3,6 +3,7 @@ using NWH.Common.Input;
 using UnityEngine;
 using UnityEngine.Serialization;
 using NWH.Common.Vehicles;
+using UnityEngine.Events;
 
 
 #if UNITY_EDITOR
@@ -43,6 +44,8 @@ namespace NWH.Common.Cameras
 
 
         private Vehicle _vehicle;
+        
+        public UnityEvent<Camera> onCameraChanged = new UnityEvent<Camera>();
 
 
         /// <summary>
@@ -176,8 +179,25 @@ namespace NWH.Common.Cameras
             }
 
             EnableCurrentDisableOthers();
+            onCameraChanged.Invoke(cameras[currentCameraIndex].GetComponent<Camera>());
         }
+        
+        /// <summary>
+        /// 切换到指定索引的摄像机
+        /// </summary>
+        /// <param name="index"></param>
+        public void ChangeCamera(int index)
+        {
+            if (cameras.Count <= 0 || index >= cameras.Count)
+            {
+                return;
+            }
 
+            currentCameraIndex = index;
+
+            EnableCurrentDisableOthers();
+            onCameraChanged.Invoke(cameras[currentCameraIndex].GetComponent<Camera>());
+        }
 
         public void PreviousCamera()
         {
@@ -242,6 +262,7 @@ namespace NWH.Common.Cameras
             {
                 drawer.ReorderableList("cameras");
             }
+            drawer.Field("onCameraChanged");
 
             drawer.EndEditor(this);
             return true;

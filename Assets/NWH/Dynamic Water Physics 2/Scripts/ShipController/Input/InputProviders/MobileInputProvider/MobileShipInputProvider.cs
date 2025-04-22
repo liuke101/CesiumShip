@@ -17,12 +17,6 @@ namespace NWH.DWP2.ShipController
         // Ship
         public Slider            steeringSlider;
         public Slider            throttleSlider;
-        public Slider            throttleSlider2;
-        public Slider            throttleSlider3;
-        public Slider            throttleSlider4;
-        public Slider            sternThrusterSlider;
-        public Slider            bowThrusterSlider;
-        public Slider            submarineDepthSlider;
         public MobileInputButton engineStartStopButton;
         public MobileInputButton anchorButton;
 
@@ -53,73 +47,6 @@ namespace NWH.DWP2.ShipController
 
             return 0;
         }
-        
-        
-        public override float Throttle2()
-        {
-            if (throttleSlider2 != null)
-            {
-                return throttleSlider2.value;
-            }
-
-            return 0;
-        }
-        
-        
-        public override float Throttle3()
-        {
-            if (throttleSlider3 != null)
-            {
-                return throttleSlider3.value;
-            }
-
-            return 0;
-        }
-        
-        
-        public override float Throttle4()
-        {
-            if (throttleSlider4 != null)
-            {
-                return throttleSlider4.value;
-            }
-
-            return 0;
-        }
-
-
-        public override float SternThruster()
-        {
-            if (sternThrusterSlider != null)
-            {
-                return sternThrusterSlider.value;
-            }
-
-            return 0;
-        }
-
-
-        public override float BowThruster()
-        {
-            if (bowThrusterSlider != null)
-            {
-                return bowThrusterSlider.value;
-            }
-
-            return 0;
-        }
-
-
-        public override float SubmarineDepth()
-        {
-            if (submarineDepthSlider != null)
-            {
-                return submarineDepthSlider.value;
-            }
-
-            return 0;
-        }
-
 
         public override bool EngineStartStop()
         {
@@ -173,12 +100,6 @@ namespace NWH.DWP2.WaterObjects
             drawer.BeginSubsection("Vehicle");
             drawer.Field("steeringSlider");
             drawer.Field("throttleSlider");
-            drawer.Field("throttleSlider2");
-            drawer.Field("throttleSlider3");
-            drawer.Field("throttleSlider4");
-            drawer.Field("bowThrusterSlider");
-            drawer.Field("sternThrusterSlider");
-            drawer.Field("submarineDepthSlider");
             drawer.Field("engineStartStopButton");
             drawer.Field("anchorButton");
             drawer.EndSubsection();

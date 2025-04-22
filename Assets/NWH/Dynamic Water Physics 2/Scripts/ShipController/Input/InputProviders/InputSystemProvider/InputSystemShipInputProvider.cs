@@ -18,12 +18,6 @@ namespace NWH.DWP2.ShipController
 
         private float _steering;
         private float _throttle;
-        private float _throttle2;
-        private float _throttle3;
-        private float _throttle4;
-        private float _sternThruster;
-        private float _bowThruster;
-        private float _submarineDepth;
         private float _rotateSail;
         
 
@@ -39,13 +33,7 @@ namespace NWH.DWP2.ShipController
         {
             _steering       = shipInputActions.ShipControls.Steering.ReadValue<float>();
             _throttle       = shipInputActions.ShipControls.Throttle.ReadValue<float>();
-            _throttle2      = shipInputActions.ShipControls.Throttle2.ReadValue<float>();
-            _throttle3      = shipInputActions.ShipControls.Throttle3.ReadValue<float>();
-            _throttle4      = shipInputActions.ShipControls.Throttle4.ReadValue<float>();
-            _bowThruster    = shipInputActions.ShipControls.BowThruster.ReadValue<float>();
-            _sternThruster  = shipInputActions.ShipControls.SternThruster.ReadValue<float>();
             _rotateSail   = shipInputActions.ShipControls.RotateSail.ReadValue<float>();
-            _submarineDepth = shipInputActions.ShipControls.SubmarineDepth.ReadValue<float>();
         }
 
 
@@ -55,45 +43,10 @@ namespace NWH.DWP2.ShipController
             return _throttle;
         }
         
-        public override float Throttle2()
-        {
-            return _throttle2;
-        }
-        
-        public override float Throttle3()
-        {
-            return _throttle3;
-        }
-        
-        public override float Throttle4()
-        {
-            return _throttle4;
-        }
-
-
         public override float Steering()
         {
             return _steering;
         }
-
-
-        public override float BowThruster()
-        {
-            return _bowThruster;
-        }
-
-
-        public override float SternThruster()
-        {
-            return _sternThruster;
-        }
-
-
-        public override float SubmarineDepth()
-        {
-            return _submarineDepth;
-        }
-
 
         public override bool EngineStartStop()
         {

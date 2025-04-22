@@ -13,10 +13,8 @@ namespace NWH.DWP2.DemoContent
         public Text  speedText;
         public Text  rudderText;
         public Image anchorImage;
-        public bool  reset;
 
         private AdvancedShipController activeShip;
-
 
         private void Update()
         {
@@ -55,13 +53,6 @@ namespace NWH.DWP2.DemoContent
                     }
                 }
             }
-        }
-
-
-        public void ResetScene()
-        {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
         }
     }
 }

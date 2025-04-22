@@ -89,7 +89,7 @@ namespace NWH.Common.SceneManagement
         [UnityEngine.Tooltip("Should the player start inside the vehicle?")]
         public bool startInVehicle = false;
 
-        public UnityEvent onVehicleChanged = new UnityEvent();
+        public UnityEvent<Vehicle> onVehicleChanged = new UnityEvent<Vehicle>();
 
         public UnityEvent onDeactivateAll = new UnityEvent();
 
@@ -288,7 +288,7 @@ namespace NWH.Common.SceneManagement
 
             DeactivateAllExceptActive();
 
-            onVehicleChanged.Invoke();
+            onVehicleChanged.Invoke(vehicles[activeVehicleIndex]);
         }
 
 
@@ -387,6 +387,7 @@ namespace NWH.Common.SceneManagement
             //drawer.Field("deactivateAll");
             drawer.Field("putOtherVehiclesToSleep");
             drawer.Field("activeVehicleIndex");
+            drawer.Field("onVehicleChanged");
             if (Application.isPlaying)
             {
                 drawer.Label("Active Vehicle: " +
@@ -395,17 +396,17 @@ namespace NWH.Common.SceneManagement
             drawer.EndSubsection();
 
 
-            drawer.BeginSubsection("Character-based Switching");
-            if (drawer.Field("characterBased").boolValue)
-            {
-                drawer.Field("characterObject");
-                drawer.Field("enterDistance", true, "m");
-                drawer.Field("startInVehicle");
-                drawer.Field("enterExitTag");
-                drawer.Field("maxEnterExitVehicleSpeed", true, "m/s");
-                drawer.Field("location", false);
-            }
-            drawer.EndSubsection();
+            // drawer.BeginSubsection("Character-based Switching");
+            // if (drawer.Field("characterBased").boolValue)
+            // {
+            //     drawer.Field("characterObject");
+            //     drawer.Field("enterDistance", true, "m");
+            //     drawer.Field("startInVehicle");
+            //     drawer.Field("enterExitTag");
+            //     drawer.Field("maxEnterExitVehicleSpeed", true, "m/s");
+            //     drawer.Field("location", false);
+            // }
+            // drawer.EndSubsection();
 
             drawer.EndEditor(this);
             return true;

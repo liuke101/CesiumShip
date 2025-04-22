@@ -109,12 +109,6 @@ namespace NWH.DWP2.ShipController
 
             Steering       = InputProvider.CombinedInput<ShipInputProvider>(i => i.Steering());
             Throttle       = InputProvider.CombinedInput<ShipInputProvider>(i => i.Throttle());
-            Throttle2      = InputProvider.CombinedInput<ShipInputProvider>(i => i.Throttle2());
-            Throttle3      = InputProvider.CombinedInput<ShipInputProvider>(i => i.Throttle3());
-            Throttle4      = InputProvider.CombinedInput<ShipInputProvider>(i => i.Throttle4());
-            BowThruster    = InputProvider.CombinedInput<ShipInputProvider>(i => i.BowThruster());
-            SternThruster  = InputProvider.CombinedInput<ShipInputProvider>(i => i.SternThruster());
-            SubmarineDepth = InputProvider.CombinedInput<ShipInputProvider>(i => i.SubmarineDepth());
             RotateSail       = InputProvider.CombinedInput<ShipInputProvider>(i => i.RotateSail());
             EngineStartStop |= InputProvider.CombinedInput<ShipInputProvider>(i => i.EngineStartStop());
             Anchor          |= InputProvider.CombinedInput<ShipInputProvider>(i => i.Anchor());
