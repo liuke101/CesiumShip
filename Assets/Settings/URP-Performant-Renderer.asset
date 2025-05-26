@@ -73,6 +73,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3f44c99f39cf5a4e9cd4cd047b1e2b2, type: 3}
   m_Name: AzureFogScatteringFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   blitMaterial: {fileID: 2100000, guid: cf6ab374e3080fa49b6f1077567c7ceb, type: 2}
   renderPassEvent: 350
