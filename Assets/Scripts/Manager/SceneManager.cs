@@ -29,6 +29,16 @@ namespace ShipManager
             {
                 activeCamera = activeShip.gameObject.GetComponentInChildren<CameraChanger>().cameras[0]
                     .GetComponent<Camera>();
+                azureTimeController.m_followTarget = activeCamera.transform;
+            }
+        }
+        
+        private void InitAzureTime()
+        {
+            if (azureTimeController)
+            {
+                float timeValue = DateTime.Now.Hour + DateTime.Now.Minute / 60f + DateTime.Now.Second / 3600f;
+                azureTimeController.SetTimeline(timeValue);
             }
         }
 
@@ -39,6 +49,7 @@ namespace ShipManager
                 activeShip = ship;
                 activeCamera = activeShip.gameObject.GetComponentInChildren<CameraChanger>().cameras[0]
                     .GetComponent<Camera>();
+                azureTimeController.m_followTarget = activeCamera.transform;
             }
             else
             {
@@ -51,15 +62,7 @@ namespace ShipManager
             if (cam != null)
             {
                 activeCamera = cam;
-            }
-        }
-
-        private void InitAzureTime()
-        {
-            if (azureTimeController)
-            {
-                float timeValue = DateTime.Now.Hour + DateTime.Now.Minute / 60f + DateTime.Now.Second / 3600f;
-                azureTimeController.SetTimeline(timeValue);
+                azureTimeController.m_followTarget = activeCamera.transform;
             }
         }
     }

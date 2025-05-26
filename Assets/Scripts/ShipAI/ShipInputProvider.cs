@@ -8,7 +8,7 @@ namespace ShipAI
     {
         public AIShipController aiShipController;
 
-        public enum InputType { Player, Ai };
+        public enum InputType {  Ai, Player };
         public InputType inputType;
 
         public float AccelerationInput { get; private set; }

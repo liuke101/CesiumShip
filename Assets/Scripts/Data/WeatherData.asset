@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac512e9cd7c47e0b82ea00e085041c8, type: 3}
+  m_Name: WeatherData
+  m_EditorClassIdentifier: 
+  Sunny: {fileID: 21300000, guid: a307c7b931ed84f489b0c56665b23885, type: 3}
+  Cloudy: {fileID: 21300000, guid: e77ce7144bcd8b746b65f24467dd046f, type: 3}
+  Overcast: {fileID: 21300000, guid: c191489cd5798e24b9b2d552d7a4f3f0, type: 3}
+  Windy: {fileID: 21300000, guid: dcbe34c597fe62541bfb00b349cbf2b8, type: 3}
+  Rainy: {fileID: 21300000, guid: 2c22aaf6fda7a244a954441d92faeee7, type: 3}
+  Snowy: {fileID: 21300000, guid: 2c22aaf6fda7a244a954441d92faeee7, type: 3}
+  Foggy: {fileID: 21300000, guid: fdbadf77b0fba69439f7228dd744c2f2, type: 3}
+  Hail: {fileID: 0}

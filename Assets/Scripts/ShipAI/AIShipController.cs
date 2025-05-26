@@ -1,4 +1,5 @@
 ﻿using System;
+using NWH.Common.SceneManagement;
 using OmniVehicleAi;
 using UnityEngine;
 using UnityEngine.Splines;
@@ -110,8 +111,15 @@ namespace ShipAI
         #region Unity Methods
         private void Start()
         {
+            // var InitialShip = VehicleChanger.Instance.vehicles[VehicleChanger.Instance.activeVehicleIndex];
+            // if (InitialShip)
+            // {
+            //     vehicleRigidbody = InitialShip.GetComponent<Rigidbody>();
+            //     vehicleTransform = InitialShip.transform;
+            // }
+            
             calculateSensorDirection();
-
+            
             progressTransform = new GameObject("progressTransform").transform;
             progressTransform.parent = vehicleTransform;
 

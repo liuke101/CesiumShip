@@ -1,14 +1,21 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Data;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AzureSky;
 using UnityEngine.Networking;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.UI;
 
 namespace ShipManager
 {
     public class RealWorldMessage : MonoSingleton<RealWorldMessage>
     {
+        public AzureWeatherController azureWeatherController;
+        public AzureSkyRenderController azureSkyRenderController;
         /// <summary>
         /// 密钥 于高德开发者平台创建应用申请获得
         /// </summary>
@@ -18,6 +25,8 @@ namespace ShipManager
         public TMP_Text dateText;
         public TMP_Text weatherText;
         public TMP_Text temperatureText;
+        public WeatherData weatherData;
+        public Image weatherIcon;
 
         protected override void Awake()
         {
@@ -83,6 +92,50 @@ namespace ShipManager
                         //解析text数据，提取weather和temperature保存到string中
                         string weather = request.downloadHandler.text.Split(new string[] { "\"weather\":\"" }, StringSplitOptions.None)[1].Split('"')[0];
                         weatherText.text = "天气：" + weather;
+                        
+                        //天气类型：多云、风、晴、雾、雪、阴、雨、冰雹
+                        //天气表现效果修改Profiles文件
+                        if (weatherIcon)
+                        {
+                            switch (weather)
+                            {
+                                case "晴":
+                                    weatherIcon.sprite = weatherData.Sunny;
+                                    azureWeatherController.SetNewWeatherProfile(-1);
+                                    break;
+                                case "多云":
+                                    weatherIcon.sprite = weatherData.Cloudy;
+                                    azureWeatherController.SetNewWeatherProfile(-1);
+                                    break;
+                                case "阴":
+                                    weatherIcon.sprite = weatherData.Overcast;
+                                    azureWeatherController.SetNewWeatherProfile(3);
+                                    break;
+                                case "风":
+                                    weatherIcon.sprite = weatherData.Windy;
+                                    azureWeatherController.SetNewWeatherProfile(-1);
+                                    break;
+                                case "雨":
+                                    weatherIcon.sprite = weatherData.Rainy;
+                                    azureWeatherController.SetNewWeatherProfile(6);
+                                    break;
+                                case "雪":
+                                    weatherIcon.sprite = weatherData.Snowy;
+                                    azureWeatherController.SetNewWeatherProfile(7);
+                                    break;
+                                case "雾":
+                                    weatherIcon.sprite = weatherData.Foggy;
+                                    azureWeatherController.SetNewWeatherProfile(1);
+                                    break;
+                                case "冰雹":
+                                    weatherIcon.sprite = weatherData.Hail;
+                                    azureWeatherController.SetNewWeatherProfile(7);
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                        
                     }
 
                     if (temperatureText != null)

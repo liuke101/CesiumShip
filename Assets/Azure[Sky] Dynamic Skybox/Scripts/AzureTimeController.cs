@@ -19,7 +19,7 @@ namespace UnityEngine.AzureSky
         [SerializeField] private Transform m_directionalLight = null;
 
         [Tooltip("If selected, the prefab will follow this transform in the scene, usually the main camera is used here.")]
-        [SerializeField] private Transform m_followTarget = null;
+        [SerializeField] public Transform m_followTarget = null;
 
         [Tooltip("The method used to compute the celestial coordinate of the sun and moon in the sky. " +
         "Any other celestial body that you may use, will always get the realistic astronomical coordinate.")]
