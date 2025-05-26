@@ -1,0 +1,1151 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 30.04.2025 10:12:07
+
+newmtl 23___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6392 0.6392 0.6392
+	Ks 0.0810 0.0810 0.0810
+	Ke 0.0000 0.0000 0.0000
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0730
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0092.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0092.bmp
+
+newmtl Bridge_pier_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0019.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0019.bmp
+
+newmtl Bridge_pier_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0021.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0021.bmp
+
+newmtl Bridge_pier_03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0021.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0021.bmp
+
+newmtl BridgeGlass01
+	Ns 24.0000
+	Ni 1.5000
+	d 0.2000
+	Tr 0.8000
+	Tf 0.2000 0.2000 0.2000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.2790 0.2790 0.2790
+	Ke 0.0000 0.0000 0.0000
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0047
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0092.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0092.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0573
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0069.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0069.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0370
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0031.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0031.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0064
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0015.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0015.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0720
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0083.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0083.bmp
+
+newmtl wire_000000000
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0073
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__48_Composite.bmp
+	map_Kd texture\Map__48_Composite.bmp
+
+newmtl vray_RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0729
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0068.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0068.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0728
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__1861902311_Composite.bmp
+	map_Kd texture\Map__1861902311_Composite.bmp
+
+newmtl Wood
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__1861902310_RGB Multiply.bmp
+	map_Kd texture\Map__1861902310_RGB Multiply.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0717
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0119.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0119.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0367
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__40_Color Correction.bmp
+	map_Kd texture\Map__40_Color Correction.bmp
+
+newmtl Girder_steel
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__41_RGB Multiply.bmp
+	map_Kd texture\Map__41_RGB Multiply.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0300
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0033.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0033.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0303
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0080.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0080.bmp
+
+newmtl Sleeper_top
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__1861902307_Composite.bmp
+	map_Kd texture\Map__1861902307_Composite.bmp
+
+newmtl Sleeper_bottom
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__1861902308_Composite.bmp
+	map_Kd texture\Map__1861902308_Composite.bmp
+
+newmtl Bridgehead_L
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0025.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0025.bmp
+
+newmtl Bridgehead_F
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0027.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0027.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0377
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0012.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0012.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0376
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0013.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0013.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0392
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+
+newmtl vray_RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0288
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0039.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0039.bmp
+
+newmtl chrome_glossy_dark
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1765 0.1765 0.1765
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Roof
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0082.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0082.bmp
+
+newmtl Roof_
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0082.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0082.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0301
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0329
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0077.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0077.bmp
+
+newmtl bridgearch
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0014.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0014.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0372
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0003.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0003.bmp
+
+newmtl Bridgehead_YQ
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0029.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0029.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0378
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0047.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0047.bmp
+
+newmtl vray_Material__116
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0041.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0041.bmp
+
+newmtl vray_Material__104
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0040.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0040.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0385
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0075.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0310
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0057.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0057.bmp
+
+newmtl vray_Material__573
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0003.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0003.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0383
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0097.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0097.bmp
+
+newmtl Material__7575
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0046.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0046.bmp
+
+newmtl vray_RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0340
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0042.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0042.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0373
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0109.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0109.bmp
+
+newmtl RS_V5CG_COM_38bbc0c9_86cd_4ead_915f_bc146d2a9285_0384
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__1861902290_Composite.bmp
+	map_Kd texture\Map__1861902290_Composite.bmp
+
+newmtl Material__7826
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0051.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0051.bmp
+
+newmtl Inscription01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__32_Color Correction.bmp
+	map_Kd texture\Map__32_Color Correction.bmp
+
+newmtl Inscription02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__33_Color Correction.bmp
+	map_Kd texture\Map__33_Color Correction.bmp
+
+newmtl Inscription03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__34_Color Correction.bmp
+	map_Kd texture\Map__34_Color Correction.bmp
+
+newmtl Inscription04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__35_Color Correction.bmp
+	map_Kd texture\Map__35_Color Correction.bmp
+
+newmtl Inscription05
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__36_Color Correction.bmp
+	map_Kd texture\Map__36_Color Correction.bmp
+
+newmtl Inscription06
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__37_Color Correction.bmp
+	map_Kd texture\Map__37_Color Correction.bmp
+
+newmtl Inscription07
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__38_Color Correction.bmp
+	map_Kd texture\Map__38_Color Correction.bmp
+
+newmtl Inscription08
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\Map__39_Color Correction.bmp
+	map_Kd texture\Map__39_Color Correction.bmp
+
+newmtl 09___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0084.bmp
+	map_Kd texture\38bbc0c9-86cd-4ead-915f-bc146d2a9285_0084.bmp
+
+newmtl tree_vis_shu_7
+	Ns 7.8125
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9590 0.9590 0.9590
+	Ks 0.1370 0.1370 0.1370
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\tree_vis_shu-7.png
+	map_Kd texture\tree_vis_shu-7.png
+	map_d texture\tree_vis_shu-7.png
+
+newmtl 3d66Model_1039122_files_90
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-90.bmp
+	map_Kd texture\3d66Model-1039122-files-90.bmp
+
+newmtl 3d66Model_1039122_files_128
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-128.bmp
+	map_Kd texture\3d66Model-1039122-files-128.bmp
+
+newmtl 28_30a
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\28-30a.bmp
+	map_Kd texture\28-30a.bmp
+
+newmtl 19_h43
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\19_h43.bmp
+	map_Kd texture\19_h43.bmp
+
+newmtl 3d66Model_1039122_files_37
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-37.bmp
+	map_Kd texture\3d66Model-1039122-files-37.bmp
+
+newmtl tile0_0x0
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\tile0_0x0.bmp
+	map_Kd texture\tile0_0x0.bmp
+
+newmtl 3d66Model_1039122_files_348
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-348.bmp
+	map_Kd texture\3d66Model-1039122-files-348.bmp
+
+newmtl wall12_h36
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\wall12_h36.bmp
+	map_Kd texture\wall12_h36.bmp
+
+newmtl bldEUhigh1ALB
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\bldEUhigh1ALB.bmp
+	map_Kd texture\bldEUhigh1ALB.bmp
+
+newmtl swEUindustr406_8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\swEUindustr406-8.bmp
+	map_Kd texture\swEUindustr406-8.bmp
+
+newmtl 3d66Model_1039122_files_52
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-52.bmp
+	map_Kd texture\3d66Model-1039122-files-52.bmp
+
+newmtl 25_h42
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\25_h42.bmp
+	map_Kd texture\25_h42.bmp
+
+newmtl 15_h44
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\15_h44.bmp
+	map_Kd texture\15_h44.bmp
+
+newmtl buildzh1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\buildzh1.bmp
+	map_Kd texture\buildzh1.bmp
+
+newmtl 3d66Model_1039122_files_36
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-36.bmp
+	map_Kd texture\3d66Model-1039122-files-36.bmp
+
+newmtl ss5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\ss5.bmp
+	map_Kd texture\ss5.bmp
+
+newmtl 12_h33
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\12_h33.bmp
+	map_Kd texture\12_h33.bmp
+
+newmtl wall10_h23
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\wall10_h23.bmp
+	map_Kd texture\wall10_h23.bmp
+
+newmtl 17_h43
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\17_h43.bmp
+	map_Kd texture\17_h43.bmp
+
+newmtl 3d66Model_1039122_files_86
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-86.bmp
+	map_Kd texture\3d66Model-1039122-files-86.bmp
+
+newmtl 3d66Model_1039122_files_366
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-366.bmp
+	map_Kd texture\3d66Model-1039122-files-366.bmp
+
+newmtl 3d66Model_1039122_files_75
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\3d66Model-1039122-files-75.bmp
+	map_Kd texture\3d66Model-1039122-files-75.bmp
+
+newmtl soil
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka texture\soil.bmp
+	map_Kd texture\soil.bmp
+
+newmtl wire_086086086
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3373 0.3373 0.3373
+	Ks 0.3500 0.3500 0.3500
