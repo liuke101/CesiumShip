@@ -97,45 +97,48 @@ namespace ShipManager
                         //天气表现效果修改Profiles文件
                         if (weatherIcon)
                         {
-                            switch (weather)
+                            if (weather.Contains("晴"))
                             {
-                                case "晴":
-                                    weatherIcon.sprite = weatherData.Sunny;
-                                    azureWeatherController.SetNewWeatherProfile(-1);
-                                    break;
-                                case "多云":
-                                    weatherIcon.sprite = weatherData.Cloudy;
-                                    azureWeatherController.SetNewWeatherProfile(-1);
-                                    break;
-                                case "阴":
-                                    weatherIcon.sprite = weatherData.Overcast;
-                                    azureWeatherController.SetNewWeatherProfile(3);
-                                    break;
-                                case "风":
-                                    weatherIcon.sprite = weatherData.Windy;
-                                    azureWeatherController.SetNewWeatherProfile(-1);
-                                    break;
-                                case "雨":
-                                    weatherIcon.sprite = weatherData.Rainy;
-                                    azureWeatherController.SetNewWeatherProfile(6);
-                                    break;
-                                case "雪":
-                                    weatherIcon.sprite = weatherData.Snowy;
-                                    azureWeatherController.SetNewWeatherProfile(7);
-                                    break;
-                                case "雾":
-                                    weatherIcon.sprite = weatherData.Foggy;
-                                    azureWeatherController.SetNewWeatherProfile(1);
-                                    break;
-                                case "冰雹":
-                                    weatherIcon.sprite = weatherData.Hail;
-                                    azureWeatherController.SetNewWeatherProfile(7);
-                                    break;
-                                default:
-                                    break;
+                                weatherIcon.sprite = weatherData.Sunny;
+                                azureWeatherController.SetNewWeatherProfile(-1);
+                            }
+                            else if (weather.Contains("多云"))
+                            {
+                                weatherIcon.sprite = weatherData.Cloudy;
+                                azureWeatherController.SetNewWeatherProfile(-1);
+                            }
+                            else if (weather.Contains("阴"))
+                            {
+                                weatherIcon.sprite = weatherData.Overcast;
+                                azureWeatherController.SetNewWeatherProfile(3);
+                            }
+                            else if (weather.Contains("风"))
+                            {
+                                weatherIcon.sprite = weatherData.Windy;
+                                azureWeatherController.SetNewWeatherProfile(-1);
+                            }
+                            //如果weather含有"雨"的字符
+                            else if (weather.Contains("雨"))
+                            {
+                                weatherIcon.sprite = weatherData.Rainy;
+                                azureWeatherController.SetNewWeatherProfile(6);
+                            }
+                            else if (weather.Contains("雪"))
+                            {
+                                weatherIcon.sprite = weatherData.Snowy;
+                                azureWeatherController.SetNewWeatherProfile(7);
+                            }
+                            else if (weather.Contains("雾"))
+                            {
+                                weatherIcon.sprite = weatherData.Foggy;
+                                azureWeatherController.SetNewWeatherProfile(1);
+                            }
+                            else if (weather.Contains("冰雹"))
+                            {
+                                weatherIcon.sprite = weatherData.Hail;
+                                azureWeatherController.SetNewWeatherProfile(7);
                             }
                         }
-                        
                     }
 
                     if (temperatureText != null)
