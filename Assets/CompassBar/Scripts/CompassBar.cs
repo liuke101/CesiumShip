@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using NWH.Common.SceneManagement;
+using NWH.Common.Vehicles;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
+[DefaultExecutionOrder(1000)]
 public class CompassBar : MonoBehaviour
 {
     //Camera
@@ -32,7 +36,21 @@ public class CompassBar : MonoBehaviour
     {
         background = CompassParent.parent.GetComponent<RectTransform>();
         SetupCompass();
-        
+
+        if (VehicleChanger.Instance != null)
+        {
+            VehicleChanger.Instance.onVehicleChanged.AddListener(OnVehicleChanged);
+
+            // Set initial camera for the active vehicle
+            if (VehicleChanger.Instance.vehicles.Count > VehicleChanger.Instance.activeVehicleIndex && VehicleChanger.Instance.activeVehicleIndex >= 0)
+            {
+                Vehicle activeVehicle = VehicleChanger.Instance.vehicles[VehicleChanger.Instance.activeVehicleIndex];
+                if (activeVehicle != null)
+                {
+                    OnVehicleChanged(activeVehicle);
+                }
+            }
+        }
     }
 
     private void SetupCompass()
@@ -195,4 +213,31 @@ public class CompassBar : MonoBehaviour
 
     }
 
+    private void OnDestroy()
+    {
+        // Unsubscribe to prevent memory leaks
+        if (VehicleChanger.Instance != null)
+        {
+            VehicleChanger.Instance.onVehicleChanged.RemoveListener(OnVehicleChanged);
+        }
+    }
+
+    public void OnVehicleChanged(Vehicle newVehicle)
+    {
+        if (newVehicle != null)
+        {
+            // Find the camera associated with the vehicle.
+            // A common approach is to find a Camera component in the children of the vehicle's transform.
+            Camera[] vehicleCamera = newVehicle.GetComponentsInChildren<Camera>();
+            
+            if (vehicleCamera.Length > 0)
+            {
+                MainCamera = vehicleCamera.FirstOrDefault(cam => cam.name == "CameraDriver").transform;
+            }
+            else
+            {
+                Debug.LogWarning("No camera found on the new vehicle.", newVehicle);
+            }
+        }
+    }
 }

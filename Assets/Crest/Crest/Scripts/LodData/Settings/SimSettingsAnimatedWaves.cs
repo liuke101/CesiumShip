@@ -53,7 +53,7 @@ namespace Crest
 
         [Tooltip("Maximum number of wave queries that can be performed when using ComputeShaderQueries.")]
         [Predicated("_collisionSource", true, (int)CollisionSources.ComputeShaderQueries), SerializeField, DecoratedField]
-        int _maxQueryCount = QueryBase.MAX_QUERY_COUNT_DEFAULT;
+        int _maxQueryCount = 8192;
         public int MaxQueryCount => _maxQueryCount;
 
         [Tooltip("Whether to use a graphics shader for combining the wave cascades together. Disabling this uses a compute shader instead which doesn't need to copy back and forth between targets, but it may not work on some GPUs, in particular pre-DX11.3 hardware, which do not support typed UAV loads. The fail behaviour is a flat ocean."), SerializeField]
